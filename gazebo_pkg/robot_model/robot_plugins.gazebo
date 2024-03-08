@@ -20,7 +20,12 @@
       <wheelDiameter>0.2</wheelDiameter>
       <wheelAcceleration>2.0</wheelAcceleration>
       <wheelTorque>100</wheelTorque>
-      <commandTopic>cmd_vel</commandTopic>
+
+      <!--
+        you can move the robot by take the help of turtlesim package 
+        $ rosrun turtlesim turtle_teleop_key  
+      -->
+      <commandTopic>/turtle1/cmd_vel</commandTopic>
       <odometryTopic>odom</odometryTopic>
       <odometryFrame>odom</odometryFrame>
       <odometrySource>1</odometrySource>
